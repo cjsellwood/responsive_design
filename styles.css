@@ -411,11 +411,11 @@ main {
 }
 
 .funding {
-  padding: 20px;
+  padding: 10px 20px;
 }
 
 .more-info {
-  margin: 20px 0; 
+  margin: 20px 0;
 }
 
 .more-info a {
@@ -491,7 +491,7 @@ main {
   width: 16px;
   height: 16px;
   display: block;
-  background: url("images/tag.svg")
+  background: url("images/tag.svg");
 }
 
 .suitcase-icon {
@@ -515,4 +515,122 @@ main {
 
 .funding-fourth-row a :last-child {
   color: rgb(138, 138, 138);
+}
+
+.categories-container {
+  padding: 10px 20px;
+}
+
+.categories-container > div {
+  padding: 8px 0;
+}
+
+.category-image {
+  position: relative;
+  width: 100%;
+  padding-top: 75%;
+}
+
+#category-gradient {
+  display: block;
+  background: url("images/gradient.png") no-repeat;
+  background-size: 100% 100%;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.category-content {
+  background-size: cover;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+#category1 {
+  background-image: url("images/category1.jpg");
+}
+
+.category-latest {
+  margin: 2px 0;
+  display: flex;
+  background-color: rgba(255, 68, 34, 0.06);
+}
+
+.category-latest > div {
+  padding: 20px;
+}
+
+.category-latest > div > h5 {
+  color: rgb(255, 68, 34);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.category-latest > div > h4 > a {
+  color: rgb(255, 68, 34);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.category-latest > div > h4 > a:hover {
+  text-decoration: underline;
+}
+
+.category-latest-image {
+  min-width: 96px;
+  width: 96px;
+  height: 96px;
+  display: block;
+}
+
+#category-latest1 {
+  background: url("images/category-latest1.jpg") no-repeat 50% 50%;;
+  background-size: cover;
+}
+
+.category-list {
+
+}
+
+.category-list > li {
+  list-style-position: outside;
+  position: relative;
+  border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+.category-list > li::before {
+  content: "";
+  position: absolute;
+  height: 4px;
+  width: 4px;
+  background-color: rgb(255, 68, 34);
+  left: 0;
+  top: 17px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.category-list > li > a {
+  text-decoration: none;
+  color: rgb(61, 61, 61);
+  font-size: 13px;
+  line-height: 19.5px;
+  padding: 10px 0;
+  padding-left: 15px;
+  display: block;
+}
+
+.category-list > li > a:hover {
+  color: black;
 }
