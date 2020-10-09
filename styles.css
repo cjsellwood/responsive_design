@@ -133,6 +133,8 @@ header {
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 1000;
+  background-color: white;
 }
 
 .nav-logo {
@@ -209,7 +211,7 @@ main {
 
 .gradient-cover {
   display: block;
-  background:  rgba(0, 0, 0, 0.253) url("images/gradient.png") no-repeat;
+  background: rgba(0, 0, 0, 0.253) url("images/gradient.png") no-repeat;
   background-size: 100% 100%;
   z-index: 2;
   position: absolute;
@@ -301,7 +303,7 @@ main {
   padding: 20px;
 }
 
-.latest > h2 a {
+.section-heading a {
   color: rgb(255, 68, 34);
   font-size: 28px;
   font-weight: 700;
@@ -312,7 +314,7 @@ main {
   margin-bottom: 20px;
 }
 
-.latest > h2 a:hover {
+.section-heading a:hover {
   color: black;
 }
 
@@ -392,7 +394,6 @@ main {
   text-decoration: underline;
 }
 
-
 .latest-text p {
   color: gray;
   font-size: 12px;
@@ -407,4 +408,111 @@ main {
 
 .latest-text p a:hover {
   color: black;
+}
+
+.funding {
+  padding: 20px;
+}
+
+.more-info {
+  margin: 20px 0; 
+}
+
+.more-info a {
+  color: rgb(255, 68, 34);
+  display: block;
+  text-decoration: none;
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.funding-items > div {
+  margin: 10px 0;
+  background-color: rgb(255, 250, 248);
+}
+
+.funding-top {
+  display: block;
+  color: black;
+  text-decoration: none;
+  position: relative;
+}
+
+.funding-top img {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 11px;
+  left: 11px;
+}
+
+.funding-top > div > h4 {
+  background-color: rgb(255, 68, 34);
+  padding: 11px 16px 11px 84px;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.funding-second-row {
+  background-color: rgba(255, 68, 34, 0.08);
+  padding: 11px 16px 11px 84px;
+}
+
+.funding-second-row > h4 {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.funding-second-row > h5 {
+  font-size: 11px;
+  line-height: 16.5px;
+  color: rgb(105, 105, 105);
+}
+
+.funding-third-row {
+  padding: 16px;
+}
+
+.funding-third-row > a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+  font-size: 13px;
+  line-height: 22px;
+}
+
+.tag-icon {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+  display: block;
+  background: url("images/tag.svg")
+}
+
+.suitcase-icon {
+  width: 16px;
+  height: 16px;
+  display: block;
+  margin-right: 10px;
+  background: url("images/suitcase.svg");
+}
+
+.funding-fourth-row {
+  padding: 16px;
+  border-top: 1px solid rgba(255, 67, 34, 0.198);
+}
+
+.funding-fourth-row a {
+  text-decoration: none;
+  color: rgb(56, 56, 56);
+  font-size: 12px;
+}
+
+.funding-fourth-row a :last-child {
+  color: rgb(138, 138, 138);
 }
