@@ -286,9 +286,125 @@ main {
   color: rgba(255, 255, 255, 0.602);
 }
 
+.cover-details a:hover {
+  color: white;
+}
+
 .clock-icon,
 .share-icon {
   width: 16px;
   height: 16px;
   margin: 0 4px 0 8px;
+}
+
+.latest {
+  padding: 20px;
+}
+
+.latest > h2 a {
+  color: rgb(255, 68, 34);
+  font-size: 28px;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: -0.015em;
+  line-height: 31px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.latest > h2 a:hover {
+  color: black;
+}
+
+.latest-list > li {
+  display: flex;
+  margin: 10px 0;
+}
+
+.latest-list > li > a {
+  display: block;
+  margin-right: 10px;
+}
+
+.latest-image {
+  min-width: 75px;
+  width: 75px;
+  height: 75px;
+}
+#latest1 {
+  background: url("images/latest1.png");
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+#latest2 {
+  background: url("images/latest2.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+#latest3 {
+  background: url("images/latest3.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+#latest4 {
+  background: url("images/latest4.png");
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+#latest5 {
+  background: url("images/latest5.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+#latest6 {
+  background: url("images/latest6.png");
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+#latest7 {
+  background: url("images/latest7.png");
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+#latest8 {
+  background: url("images/latest8.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.latest-text h4 a {
+  color: black;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.latest-text h4 a:hover {
+  color: rgb(255, 68, 34);
+  text-decoration: underline;
+}
+
+
+.latest-text p {
+  color: gray;
+  font-size: 12px;
+  line-height: 18px;
+  padding-top: 5px;
+}
+
+.latest-text p a {
+  text-decoration: none;
+  color: rgb(136, 136, 136);
+}
+
+.latest-text p a:hover {
+  color: black;
 }
