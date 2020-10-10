@@ -553,8 +553,48 @@ main {
   right: 0;
 }
 
+.category-content h2 a:hover {
+  text-decoration: 1px rgb(146, 146, 146) underline;
+}
+
+.category-content > h5 {
+  color: white
+}
+
 #category1 {
   background-image: url("images/category1.jpg");
+}
+
+#category2 {
+  background-image: url("images/category2.jpg");
+}
+
+#category3 {
+  background-image: url("images/category3.jpg");
+}
+
+#category4 {
+  background-image: url("images/category4.png");
+}
+
+#category5 {
+  background-image: url("images/category5.jpg");
+}
+
+#category6 {
+  background-image: url("images/category6.png");
+}
+
+#category7 {
+  background-image: url("images/category7.png");
+}
+
+#category8 {
+  background-image: url("images/category8.jpg");
+}
+
+#category9 {
+  background-image: url("images/category9.png");
 }
 
 .category-latest {
@@ -592,18 +632,54 @@ main {
 }
 
 #category-latest1 {
-  background: url("images/category-latest1.jpg") no-repeat 50% 50%;;
+  background: url("images/category-latest1.jpg") no-repeat 50% 50%;
   background-size: cover;
 }
 
-.category-list {
+#category-latest2 {
+  background: url("images/category-latest2.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
 
+#category-latest3 {
+  background: url("images/category-latest3.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+#category-latest4 {
+  background: url("images/category-latest4.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+#category-latest5 {
+  background: url("images/category-latest5.png") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+#category-latest6 {
+  background: url("images/category-latest6.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+#category-latest7 {
+  background: url("images/category-latest7.jpeg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+#category-latest8 {
+  background: url("images/category-latest8.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+#category-latest9 {
+  background: url("images/category-latest9.png") no-repeat 50% 50%;
+  background-size: cover;
 }
 
 .category-list > li {
   list-style-position: outside;
   position: relative;
-  border-bottom: 1px solid rgb(211, 211, 211);
+  border-bottom: 1px solid rgb(226, 226, 226);
 }
 
 .category-list > li::before {
@@ -626,7 +702,7 @@ main {
   color: rgb(61, 61, 61);
   font-size: 13px;
   line-height: 19.5px;
-  padding: 10px 0;
+  padding: 6px 0;
   padding-left: 15px;
   display: block;
 }
