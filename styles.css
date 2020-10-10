@@ -813,29 +813,20 @@ main {
   color: rgb(85, 85, 85);
 }
 
-footer {
-
-}
-
 .footer-top {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   background-color: rgb(19, 19, 19);
   padding: 35px 0;
 }
 
-.footer-bottom {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(0, 0, 0);
-  padding: 35px 0;
-  color: gray;
-}
+
 
 .external-links-list {
   display: flex;
+  margin-bottom: 25px;
 }
 
 .external-links-list > li {
@@ -852,7 +843,6 @@ footer {
 .external-links-list > li:hover {
   background-color: rgb(0, 0, 0);
 }
-
 
 .external-links-list > li > a {
   background: rgb(96, 212, 43);
@@ -871,35 +861,74 @@ footer {
 
 #facebook-icon {
   background: url("images/facebook.svg") no-repeat 50% 50%;
-
 }
 
 #twitter-icon {
   background: url("images/twitter.svg") no-repeat 50% 50%;
-
 }
 
 #youtube-icon {
   background: url("images/youtube.svg") no-repeat 50% 50%;
-
 }
 
 #instagram-icon {
   background: url("images/instagram.svg") no-repeat 50% 50%;
-
 }
 
 #pinterest-icon {
   background: url("images/pinterest.svg") no-repeat 50% 50%;
-
 }
 
 #rss-icon {
   background: url("images/rss.svg") no-repeat 50% 50%;
-
 }
 
 #email-icon {
   background: url("images/email.svg") no-repeat 50% 50%;
+}
 
+.site-links-list {
+  display: flex;
+}
+
+.site-links-list > li {
+  margin: 0 5px;
+}
+
+.site-links-list a {
+  color: rgb(170, 170, 170);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.site-links-list a:hover {
+  color: white;
+
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  padding: 35px 0;
+  color: gray;
+}
+
+.footer-bottom p {
+  color: rgb(170, 170, 170);
+  font-size: 13px;
+  line-height: 19.5px;
+}
+
+#tnw-logo {
+  height: 9px;
+  width: 37px;
+}
+
+#stackpath-logo {
+  width: 65px;
+  height: 9px;
 }
