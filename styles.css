@@ -531,7 +531,7 @@ main {
   padding-top: 75%;
 }
 
-#category-gradient {
+.category-gradient {
   display: block;
   background: url("images/gradient.png") no-repeat;
   background-size: 100% 100%;
@@ -558,7 +558,7 @@ main {
 }
 
 .category-content > h5 {
-  color: white
+  color: white;
 }
 
 #category1 {
@@ -709,4 +709,105 @@ main {
 
 .category-list > li > a:hover {
   color: black;
+}
+
+.deals {
+  padding: 20px;
+}
+
+.deals-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.deals-top > a {
+  color: rgb(255, 68, 34);
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+.deals-list {
+  display: grid;
+  grid-template-rows: repeat(8, 1fr);
+}
+
+.deals-list > li {
+  padding: 8px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-column-gap: 15px;
+}
+
+.deals-image {
+  width: 75px;
+  height: 75px;
+  display: block;
+}
+
+#deals1 {
+  background: url("images/deals1.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+#deals2 {
+  background: url("images/deals2.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+#deals3 {
+  background: url("images/deals3.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+#deals4 {
+  background: url("images/deals4.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+#deals5 {
+  background: url("images/deals5.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+#deals6 {
+  background: url("images/deals6.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+#deals7 {
+  background: url("images/deals7.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+#deals8 {
+  background: url("images/deals8.jpg") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.deals-details > h4 > a {
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+.deals-details > h4 > a:hover {
+  color: rgb(255, 68, 34);
+  text-decoration: 1px rgba(255, 67, 34, 0.37) underline;
+}
+
+.old-price {
+  font-size: 12px;
+  color: rgb(170, 170, 170);
+  text-decoration: line-through;
+}
+
+.new-price {
+  font-size: 14px;
+  color: rgb(85, 85, 85);
 }
